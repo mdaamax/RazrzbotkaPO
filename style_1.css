@@ -1,0 +1,43 @@
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+h1 {
+    font-weight: bold;
+    margin: 1em;
+}
+span {
+    color: green;
+    text-decoration-line: overline ;
+    text-decoration-color: black;
+}
+b{
+    color: #000000;
+}
+.card {
+    margin: 0 4em;/*ШИРИНА*/
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    color: #9f9b9b;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 0.5rem solid #0cb10c;
+
+}
+.card:hover {
+    box-shadow: 5px 10px 15px;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+.container {
+    padding: 10px 16px;
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("RobotoCondensed-Regular.ttf") format("truetype");
+}
+html {
+    font-family: "Roboto Light" , sans-serif;
+}
