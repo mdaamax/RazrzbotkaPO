@@ -16,7 +16,7 @@ b{
     color: #000000;
 }
 .card {
-    margin: 0 4em;/*ШИРИНА*/
+    margin:  0 4rem;/*ШИРИНА*/
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 50%;
